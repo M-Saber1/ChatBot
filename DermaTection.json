@@ -1,0 +1,367 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "DermaTection Team"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me ChatBot.",
+      "I'm Mind ChatBot",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of Doctor's appointment",
+      "what is Doctor's appointment",
+      "working days",
+      "when are Doctor's appointments open",
+      "what are your hours",
+      "hours of operation",
+      "when is the Doctor's appointments open",
+      "college timing",
+      "what about Doctor's appointment",
+      "is Doctor's appointments open on saturday",
+      "tell something about Doctor's appointment timing",
+      "what is the Doctor's appointment hours",
+      "when should i talk to Doctor",
+      "when should i attend medical examination",
+      "what is my Doctor's appointment time",
+      "Doctor timing",
+      "timing Doctor"
+   ],
+   "responses": [
+      "Doctor's appointment is open 8am-5pm Monday-Saturday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact DermaTection ",
+      "DermaTection email number",
+      "DermaTection email",
+      "What is your contact email",
+      "Contact gmail?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call",
+      "email",
+      "gmail"
+   ],
+   "responses": [
+      "You can contact at: dermatectionproject@gmail.com"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "The price",
+   "patterns": [
+      "How much is the detection price?",
+      "list of detection offered",
+      "list of detection offered in",
+      "what are the detection offered in your Application?",
+      "Cost?",
+      "detection offered",
+      "detection offered in DermaTection ",
+      "detection you offer"
+      
+   ],
+   "responses": [
+      "Our DermaTection Application offers two types of detection first one Ai detection and this is free just enter your data and The image of the place to be diagnosed and we will give you the diagnosing second type is Medical examination and diagnosis by a doctor and You will book an appointment with the doctor, and he will contact you at the appointed time. The price of the examination is 100 pounds"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "detection  fee",
+      "fee per year",
+      "what is the fee of each year",
+      "what is the fee of each month",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "What is the fees of detection ",
+      "how much is the fees",
+      "hostel fees",
+      "fees for Ai detection ",
+      "fees for artificial intelligence detection"
+   ],
+   "responses": [
+      "Diagnose disease using artificial intelligence for free,The doctor diagnoses the disease and communicates with him. The examination costs 100 pounds per time, 2000 pounds per month, and 10,000 pounds per year "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the DermaTection  located",
+      "DermaTection  is located at",
+      "where is DermaTection ",
+      "where is DermaTection  located",
+      "address of DermaTection ",
+      "how to reach DermaTection ",
+      "DermaTection  location",
+      "DermaTection  address",
+      "wheres the DermaTection ",
+      "how can I reach DermaTection ",
+      "whats is the DermaTection  address",
+      "what is the address of DermaTection ",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "it's online We do not have any clinics, hospitals or pharmacies"
+   ],
+   "context_set": ""
+},
+ 
+ {
+   "tag": "event",
+   "patterns": [
+      "Discounts and offers",
+      "list of Discounts and offers",
+      "list of offers organised in DermaTection ",
+      "list of offers conducted in DermaTection ",
+      "What Discounts are conducted in DermaTection ",
+      "Are there any Discounts and offers held at DermaTection",
+      "offers?",
+      "Discounts",
+      "what are the Discounts",
+      "tell me about offers",
+      "what about Discounts"
+   ],
+   "responses": [
+      "Discounts revealed in the first time 100, the second time 70, in the month 1000, the three months 2000, and the year 10000 other than offers on White Friday and Black Friday, discounts of up to 70 percent"
+   ],
+   
+   "context_set": ""
+},
+ {
+   "tag": "Medical medicines",
+   "patterns": [
+      "Can you recommend a treatment for acne?",
+      "Can you recommend a treatment for Actinic keratoses?",
+      "Can you recommend a treatment for Basal cell carcinoma?",
+      "Can you recommend a treatment for Benign keratosis?",
+      "Can you recommend a treatment for Vascular lesions?",
+      "Can you recommend a treatment for angiokeratomas?",
+      "Can you recommend a treatment for Melanocytic nevi?",
+      "Can you recommend a treatment for Melanoma?"
+   ],
+   "responses": [
+      "We cannot recommend a treatment for you because this is the specialty of the doctor. Our role, we, artificial intelligence, is the diagnosis. But you can book an appointment with the doctor through our program, and he determines the appropriate treatment for you."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "Artificial intelligence method of diagnosis",
+   "patterns": [
+      "Artificial intelligence method of diagnosis",
+      "how can i use DermaTection ",
+      "Ai diagnosis",
+      "diagnosis",
+      "DermaTection diagnosis",
+      "syllabus",
+      "How to use"
+   ],
+   "responses": [
+      "You only have to enter your data and visualize the part to be diagnosed, and you will wait a few seconds and the result of the diagnosis will appear to you"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "info",
+   "patterns": [
+      "info",
+      "information",
+      "Who is DermaTection",
+      "DermaTection",
+      "DermaTection facility"
+   ],
+   "responses": [
+      "A program for diagnosing skin diseases with artificial intelligence. It was established in 2023 by a Team of Egyptian programmers using data science using artificial intelligence and with the help of elite dermatologists."
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is DermaTection  placement",
+      "Which companies visit in DermaTection ",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "Online Service"
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "Diagnosis of skin diseases"
+   ],
+   "context_set": ""
+}
+]
+ 
+}
